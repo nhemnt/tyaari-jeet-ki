@@ -4,7 +4,7 @@ This project is designed to help you practice building React applications with v
 
 1. A Button component with test cases.
 2. A Pokémon API integration using React hooks.
-3. A Todo app.
+3. A Todo app uisng useReducer hook.
 4. A Splitwise-like app for splitting expenses.
-5. Feature flag implementation to render these components conditionally.
+5. Feature flag implementation to render these components conditionally using useContext hook.
 
