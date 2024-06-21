@@ -2,6 +2,6 @@
     "testingButton": false,
     "pokemon": false,
     "todo": false,
-    "splitWise": false
-    
+    "splitWise": false,
+    "kanban": false
 }

@@ -6,6 +6,7 @@ import Pokemon from './components/Pokemon'
 import Todo from './components/Todo'
 import { FeatureFlags } from './contexts/FeatureFlags'
 import Splitwise from './components/SplitWise'
+import Kanban from './components/Kanban'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       {features.pokemon && <Pokemon />}
       {features.todo && <Todo />}
       {features.splitWise && <Splitwise />}
+      {features.kanban && <Kanban />}
     </Dashboard>
   )
 }
