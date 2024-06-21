@@ -7,6 +7,7 @@ import Todo from './components/Todo'
 import { FeatureFlags } from './contexts/FeatureFlags'
 import Splitwise from './components/SplitWise'
 import Kanban from './components/Kanban'
+import Calculator from './components/Calculator'
 
 
 
@@ -19,6 +20,7 @@ function App() {
       {features.todo && <Todo />}
       {features.splitWise && <Splitwise />}
       {features.kanban && <Kanban />}
+      {features.calculator && <Calculator />}
     </Dashboard>
   )
 }

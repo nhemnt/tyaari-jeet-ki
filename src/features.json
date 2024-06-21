@@ -3,5 +3,6 @@
     "pokemon": false,
     "todo": false,
     "splitWise": false,
-    "kanban": false
+    "kanban": false,
+    "calculator": false
 }
