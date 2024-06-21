@@ -68,7 +68,7 @@ function Calculator() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <div className="container mt-5 w-50">
+    <div className="container mt-5">
       <div className="calculator card">
         <div className="card-body">
           <h1 className="card-title text-center">Calculator</h1>
