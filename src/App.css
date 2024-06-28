@@ -1,0 +1,33 @@
+:root {
+    --bg-primary-light: #f3f3f3;
+    --bg-primary-dark: black;
+
+    --text-primary-light: black;
+    --text-primary-dark: white;
+
+    --bg-navbar-light: rgb(228, 228, 255);
+    --bg-navbar-dark: rgb(29, 29, 58);
+
+}
+
+
+.light {
+    --text-primary: var(--text-primary-light);
+    --bg-primary: var(--bg-primary-light);
+    --bg-navbar: var(--bg-navbar-light);
+}
+
+.dark {
+    --text-primary: var(--text-primary-dark);
+    --bg-primary: var(--bg-primary-dark);
+    --bg-navbar: var(--bg-navbar-dark);
+}
+
+.my-app {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.my-app__navbar{
+    background-color: var(--bg-navbar);
+}

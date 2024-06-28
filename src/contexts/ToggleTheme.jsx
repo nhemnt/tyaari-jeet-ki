@@ -5,14 +5,16 @@ export const ThemeContext = createContext();
 import React from 'react'
 
 const intialState = {
-    theme: "light"
+    theme:  localStorage.getItem("theme") || "light"
 }
 const reducer = (state = intialState, action) => {
     switch(action.type){
         case "TOGGLE_THEME": {
+            const newTheme = state.theme === "light" ? "dark" : "light";
+            localStorage.setItem("theme", newTheme);
             return {
                 ...state,
-                theme: state.theme === "light" ? "dark" : "light"
+                theme: newTheme
             }
         }
     }

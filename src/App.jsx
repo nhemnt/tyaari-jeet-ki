@@ -10,7 +10,7 @@ import Kanban from './components/Kanban'
 import Calculator from './components/Calculator'
 import DebouncedHook from './components/DebounceHook'
 import Theme from './components/Theme'
-
+import "./App.css";
 
 
 function App() {
