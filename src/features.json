@@ -4,5 +4,7 @@
     "todo": false,
     "splitWise": false,
     "kanban": false,
-    "calculator": false
+    "calculator": false,
+    "useDebounce": false,
+    "toggleTheme": false
 }

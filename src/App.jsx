@@ -8,6 +8,8 @@ import { FeatureFlags } from './contexts/FeatureFlags'
 import Splitwise from './components/SplitWise'
 import Kanban from './components/Kanban'
 import Calculator from './components/Calculator'
+import DebouncedHook from './components/DebounceHook'
+import Theme from './components/Theme'
 
 
 
@@ -21,6 +23,8 @@ function App() {
       {features.splitWise && <Splitwise />}
       {features.kanban && <Kanban />}
       {features.calculator && <Calculator />}
+      {features.useDebounce && <DebouncedHook />}
+      {features.toggleTheme && <Theme />}
     </Dashboard>
   )
 }
